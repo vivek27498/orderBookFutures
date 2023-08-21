@@ -8,8 +8,8 @@ from  database_connector import DatabaseConnector
 from logger import setup_logger
 
 from binance.client import Client
-user_key = '577304f5f'
-secret_key = '5270caefea'
+user_key = '575f'
+secret_key = '52fea'
 binance_client = Client(user_key, secret_key,base_endpoint='https://testnet.binancefuture.com/fapi/v1/order',tld='com',testnet=True)
 
 
